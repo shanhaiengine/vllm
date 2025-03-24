@@ -274,6 +274,7 @@ def _test_processing_correctness_mistral(
     "openai/whisper-large-v3",
     "google/paligemma-3b-mix-224",
     "google/paligemma2-3b-ft-docci-448",
+    "Skywork/Skywork-R1V-38B"
 ])
 @pytest.mark.parametrize("hit_rate", [0.3, 0.5, 1.0])
 @pytest.mark.parametrize("num_batches", [32])
